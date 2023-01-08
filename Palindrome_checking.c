@@ -9,11 +9,11 @@ int main(){
 
     printf("Enter a number:");
     scanf("%d", &num);
-    test= num;
+    test= num; //Storing the input value to another variable for later check
 
     while(num>0){
 
-        remainder=num%10;
+        remainder=num%10; 
         memory=(memory*10)+remainder;
         num=num/10;
     }
