@@ -17,14 +17,14 @@ int main(){
     if(num%i==0){
 
     printf("\n%d is not a prime", num);
-    flag=0;
+    flag=0; //flag indicating the condition is false
     break;
 
     }
 
    }
 
-    if(flag==1)
+    if(flag==1) //flag indicating the condition is true
     printf("\n%d is a prime", num);
 
     return 0;
